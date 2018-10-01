@@ -2,18 +2,18 @@
 export function getBootstrapRatingVariant (rating) {
   switch (rating) {
     case 'na':
-      return 'default'
+      return 'silver'
     case 'bad':
-      return 'danger'
+      return 'red'
     case 'ok':
-      return 'warning'
+      return 'orange'
     case 'good':
-      return 'success'
+      return 'green'
   }
 }
 
 export function rateTitleLength (titleLength) {
-  let rating
+  var rating;
   switch (true) {
     case titleLength > 0 && titleLength <= 399:
     case titleLength > 600:
@@ -32,7 +32,7 @@ export function rateTitleLength (titleLength) {
 }
 
 export function rateMetaDescLength (metaDescLength) {
-  let rating
+  var rating;
   switch (true) {
     case metaDescLength > 0 && metaDescLength < 120:
     case metaDescLength > 320:

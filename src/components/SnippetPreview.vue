@@ -1,6 +1,6 @@
 <template>
-  <div class="card snippet-preview">
-    <div class="card-body">
+  <div class="card snippet-preview" data-ripple="false">
+    <div class="card__text text">
       <div class="title">
         <span ref="title">{{ title }}</span>
       </div>

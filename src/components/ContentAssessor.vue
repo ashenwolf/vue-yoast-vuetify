@@ -5,8 +5,8 @@
         <template 
           v-for="rating in ['feedback', 'bad', 'ok', 'good']" 
           v-if="typeof assessorResultsByRating[rating] !== 'undefined'">
-          <div v-for="item in assessorResultsByRating[rating]" v-if="item.text != ''" class="list-group-item" >
-            <span :class="['badge', 'badge-'+getBootstrapRatingVariant(item.rating), 'badge-pill', 'mr-2']">&nbsp;</span>
+          <div v-for="item in assessorResultsByRating[rating]" v-if="item.text != ''" class="py-1 list-group-item" >
+            <span :class="['badge', getBootstrapRatingVariant(item.rating), 'mr-1']">&nbsp;</span>
             <span v-html="item.text"></span>
           </div>
         </template>
@@ -14,6 +14,18 @@
     </slot>
   </div>
 </template>
+
+<style lang="css" scoped>
+.badge {
+    vertical-align: middle;
+    margin-top: -2px;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+}
+
+</style>
 
 <script>
   import VueYoast from 'vue-yoast'
