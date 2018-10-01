@@ -1,11 +1,11 @@
-# vue-yoast-bootstrap
+# vue-yoast-vuetify
 
-Content and SEO assessor components for Vue.js + Bootstrap
+Content and SEO assessor components for Vue.js + Vuetify
 
 ## Installation
 
 ```
-npm install vue-yoast-bootstrap --save
+npm install vue-yoast-vuetify --save
 ```
 
 ## Demo 

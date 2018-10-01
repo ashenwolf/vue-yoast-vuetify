@@ -1,28 +1,28 @@
 {
-  "name": "vue-yoast-bootstrap",
+  "name": "vue-yoast-vuetify",
   "version": "0.1.0",
-  "description": "Content and SEO assessor components for Vue.js + Bootstrap",
-  "main": "dist/vue-yoast-bootstrap.js",
+  "description": "Content and SEO assessor components for Vue.js + Vuetify",
+  "main": "dist/vue-yoast-vuetify.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meyt/vue-yoast-bootstrap.git"
+    "url": "git+https://github.com/ashenwolf/vue-yoast-vuetify.git"
   },
   "keywords": [
     "vue",
     "yoast",
     "seo",
     "yoastseo",
-    "bootstrap"
+    "vuetify"
   ],
-  "author": "Mahdi Ghane.g",
+  "author": "Sergii Gulenok, Mahdi Ghane.g",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/meyt/vue-yoast-bootstrap/issues"
+    "url": "https://github.com/meyt/vue-yoast-vuetify/issues"
   },
-  "homepage": "https://github.com/meyt/vue-yoast-bootstrap#readme",
+  "homepage": "https://github.com/meyt/vue-yoast-vuetify#readme",
   "dependencies": {
     "vue-yoast": "^0.1.0"
   },

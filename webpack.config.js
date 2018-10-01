@@ -7,8 +7,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-yoast-bootstrap.js',
-    library: 'VueYoastBootstrap',
+    filename: 'vue-yoast-vuetify.js',
+    library: 'VueYoastVuetify',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
@@ -50,7 +50,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin({filename: 'vue-yoast-bootstrap.min.css', allChunks: true})
+    new ExtractTextPlugin({filename: 'vue-yoast-vuetify.min.css', allChunks: true})
   ],
   resolve: {
     alias: {
